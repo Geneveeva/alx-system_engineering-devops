@@ -1,2 +1,3 @@
 #!/bin/bash
-echo {a..z}{a..z} | tr ' ' '\n' | grep --invert-atch "oo"'
+
+echo {a..z}{a..z} | tr   n | grep --invert-match "oo"
